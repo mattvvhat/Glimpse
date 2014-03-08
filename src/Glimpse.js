@@ -10,10 +10,10 @@
  *
  *
  */
-function TimeAway (domEl) {
+function Glimpse (domEl) {
 
-  if (!(this instanceof TimeAway)) {
-    return new TimeAway(domEl);
+  if (!(this instanceof Glimpse)) {
+    return new Glimpse(domEl);
   }
 
   if (typeof domEl === 'undefined') {
@@ -52,7 +52,7 @@ function TimeAway (domEl) {
   return self;
 }
 
-TimeAway.prototype.blurred = function (callback) {
+Glimpse.prototype.blurred = function (callback) {
   if (typeof callback === 'function') {
     this.blurredCallback = callback;
   }
@@ -63,7 +63,7 @@ TimeAway.prototype.blurred = function (callback) {
  *
  *
  */
-TimeAway.prototype.focused = function (callback) {
+Glimpse.prototype.focused = function (callback) {
   if (typeof callback === 'function') {
     this.focusedCallback = callback;
   }

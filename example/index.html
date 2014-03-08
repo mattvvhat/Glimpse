@@ -2,17 +2,20 @@
 <html>
   <head>
     <title>Fuck a super model</title>
-    <script src="../src/TimeAway.js"></script>
+    <script src="../src/Glimpse.js"></script>
   </head>
   <body>
+
+    <!-- Textbox container -->
     <div id='wrapper' style="background-color: red">
       <input id="vve1" value="you know">
       <input id="vve2" value="sometimes things work">
     </div>
+
     <script>
 
       // Controller for entire page
-      TimeAway(window)
+      Glimpse(window)
         .blurred(function (ev) {
           console.log('* Left from page');
         })
@@ -21,7 +24,7 @@
         });
 
       // Controller for first input box
-      TimeAway('vve1')
+      Glimpse('vve1')
         .blurred(function (ev) {
           this.domEl.style.background = '#FFF';
         })
@@ -30,13 +33,14 @@
         });
 
       // Controller for second input box
-      TimeAway('vve2')
+      Glimpse('vve2')
         .blurred(function (ev) {
           document.body.style.background = '#FFF';
         })
         .focused(function (ev) {
           document.body.style.background = '#CCC';
         });
+
     </script>
   </body>
 </html>
