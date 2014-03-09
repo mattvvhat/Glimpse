@@ -9,9 +9,9 @@ analytics and page-swapping. Sneaky.
 
 ## Install
 
-* `npm`
-* `bower`
-* `component`
+* `bower install glimpse`
+* ?`component`
+* ?`npm`
 
 
 # License
