@@ -1,0 +1,23 @@
+{
+  "name": "glimpse",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mattvvhat/Glimpse",
+  "authors": [
+    "Matt Derasoirs <matt@planwork.us>"
+  ],
+  "description": "Simple wrapper for managing and enhancing \"blur\" and \"focus\" events on DOM Elements. In particular, adds logic to help in timing and booting up setTimeout behavior.",
+  "main": "src/Glimpse.js",
+  "keywords": [
+    "event",
+    "blur",
+    "focus",
+    "asynchronous"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
